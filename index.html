@@ -1,13 +1,17 @@
+<!-- HTML -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>EagLaunch</title>
 </head>
 <body>
-    <h1>Eaglercraft Launcher</h1>
-    <button id="switchToHelp">1.5.2</button>
-    <button id="switchToother">1.8.8</button>
-    <button id="resent">resent</button>
+    <select id="minecraftVersion" class="custom-select">
+        <option value="1.5.2">1.5.2</option>
+        <option value="1.8.8">1.8.8</option>
+        <option value="resent">Resent Client</option>
+    </select>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <button id="launchButton" class="butt-on">Launch</button>
 
     <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
