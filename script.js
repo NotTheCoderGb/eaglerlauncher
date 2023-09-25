@@ -18,5 +18,7 @@ document.getElementById("launchButton").addEventListener("click", function() {
         window.location.href = "1.8.8/index.html"
     }else if (selectedVersion === "kone") {
         window.location.href = "kone/index.html"
+    }else if (selectedVersion === "uwu") {
+        window.location.href = "uwu/index.html"
     }
 });
