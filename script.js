@@ -1,5 +1,6 @@
 // script.js
 
+
 // Add an event listener to the launch button
 document.getElementById("launchButton").addEventListener("click", function() {
     // Get the selected version from the select element
@@ -20,5 +21,10 @@ document.getElementById("launchButton").addEventListener("click", function() {
         window.location.href = "kone/index.html"
     }else if (selectedVersion === "uwu") {
         window.location.href = "uwu/index.html"
+    }else if (selectedVersion == "credits") {
+        window.location.href = "https://github.com/NotTheCoderGb/eaglerlauncher";
     }
 });
+
+
+
