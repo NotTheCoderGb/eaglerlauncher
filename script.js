@@ -16,7 +16,7 @@ document.getElementById("launchButton").addEventListener("click", function() {
     }else if (selectedVersion === "veryold") {
         window.location.href = "beta1.3/index.html"
     }else if (selectedVersion === "1.8.8") {
-        window.location.href = "1.8.8/index.html"
+        window.location.href = "reborn/index.html"
     }else if (selectedVersion === "kone") {
         window.location.href = "kone/index.html"
     }else if (selectedVersion === "uwu") {
